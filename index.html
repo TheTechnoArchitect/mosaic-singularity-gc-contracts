@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mosaic Singularity — Selling to the Government of Canada: End-to-End Process</title>
+<style>
+  :root{
+    --ink:#12203a; --ink2:#3d4a63; --line:#d8dee9; --bg:#f6f7fb;
+    --accent:#b3122b; --accent2:#0b5fa5; --green:#0f7b58; --amber:#9a6b00;
+    --card:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 24px 80px}
+  header.top{border-bottom:3px solid var(--accent);padding-bottom:18px;margin-bottom:26px}
+  .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-size:31px;margin:8px 0 6px;letter-spacing:-.4px}
+  .sub{color:var(--ink2);font-size:15px;max-width:820px}
+  .meta{font-size:12px;color:#6b7688;margin-top:10px}
+  h2{font-size:20px;margin:38px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  h3{font-size:15px;margin:0 0 6px}
+  p{margin:8px 0}
+  a{color:var(--accent2);text-decoration:none;border-bottom:1px solid rgba(11,95,165,.28)}
+  a:hover{border-bottom-color:var(--accent2)}
+  code{background:#eef1f6;padding:1px 5px;border-radius:3px;font-size:12.5px}
+
+  /* ---------- DIAGRAM ---------- */
+  .diagram{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 20px 26px}
+  .lane-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6b7688;font-weight:700;margin:0 0 10px}
+  .row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:stretch}
+  .stage{position:relative;background:#fff;border:1px solid var(--line);border-left:5px solid var(--accent2);border-radius:9px;padding:13px 13px 14px;box-shadow:0 1px 2px rgba(18,32,58,.05)}
+  .stage.gate{border-left-color:var(--accent)}
+  .stage.grow{border-left-color:var(--green)}
+  .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--accent2);color:#fff;font-weight:800;font-size:13px;margin-bottom:7px}
+  .stage.gate .num{background:var(--accent)}
+  .stage.grow .num{background:var(--green)}
+  .stage h3{font-size:14.5px;line-height:1.25}
+  .stage .what{font-size:12.5px;color:var(--ink2);margin:5px 0 8px}
+  .stage .out{font-size:11.5px;color:var(--green);font-weight:600}
+  .stage .link{font-size:11.5px;display:block;margin-top:6px;word-break:break-word}
+  .down{text-align:center;color:#9aa5b8;font-size:20px;line-height:1;margin:12px 0}
+  .rail{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .rail .box{background:#f2f6fb;border:1px dashed #b9c7da;border-radius:9px;padding:12px 14px;font-size:12.5px;color:var(--ink2)}
+  .rail .box strong{color:var(--ink);display:block;margin-bottom:4px;font-size:12.5px}
+
+  /* ---------- STEPS ---------- */
+  .step{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0}
+  .step .hd{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+  .badge{background:var(--ink);color:#fff;font-size:11.5px;font-weight:700;border-radius:20px;padding:3px 10px;white-space:nowrap}
+  .step h3{font-size:16px}
+  .step ul{margin:8px 0 8px 20px;padding:0;font-size:13.5px;color:var(--ink2)}
+  .step li{margin:4px 0}
+  .go{font-size:13px;margin-top:8px;padding:8px 10px;background:#f2f6fb;border-radius:6px}
+  .go b{color:var(--ink)}
+
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#eef2f8;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:#4a566d}
+  tr:last-child td{border-bottom:none}
+  td a{word-break:break-word}
+
+  .note{border-left:4px solid var(--amber);background:#fffaf0;padding:12px 14px;border-radius:0 8px 8px 0;font-size:13px;margin:14px 0}
+  .note.bad{border-left-color:var(--accent);background:#fff5f6}
+  .note.good{border-left-color:var(--green);background:#f3fbf7}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  footer{margin-top:44px;border-top:1px solid var(--line);padding-top:14px;font-size:11.5px;color:#77839a}
+  @media print{
+    body{background:#fff} .wrap{padding:0} a{color:var(--ink)}
+    .step,.stage,.rail .box,table{box-shadow:none}
+    h2{page-break-after:avoid}
+  }
+  @media (max-width:860px){
+    .row,.rail,.cols{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:560px){ .row,.rail,.cols{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="kicker">Mosaic Singularity · Ontario, Canada</div>
+  <h1>Selling to the Government of Canada — the end-to-end process</h1>
+  <p class="sub">A practical, link-by-link roadmap from zero to first federal contract: where to register, where the money is posted, how opportunities are pre-qualified, how bids are won, and what happens after award. Built for a small Ontario business.</p>
+  <div class="meta">Compiled 2 November 2026 · Sources: CanadaBuys / Public Services and Procurement Canada (PSPC), Government Contracts Regulations (SOR/87-402). Links verified live this date.</div>
+</header>
+
+<h2>1. The map (end to end)</h2>
+
+<div class="diagram">
+  <p class="lane-label">Stage flow — you move left to right, then down</p>
+
+  <div class="row">
+    <div class="stage">
+      <div class="num">1</div>
+      <h3>Qualify your offer</h3>
+      <div class="what">Decide what you sell in government language (goods, services, or innovation) and which departments buy it.</div>
+      <div class="out">Output: 3–5 target buyer departments + 5 keywords</div>
+      <a class="link" href="https://canadabuys.canada.ca/en/tender-opportunities/what-government-buys">What the government buys →</a>
+    </div>
+    <div class="stage">
+      <div class="num">2</div>
+      <h3>Build the legal foundation</h3>
+      <div class="what">CRA business number, exact legal name, banking, insurance, and cost/pricing model.</div>
+      <div class="out">Output: CRA BN + clean corporate record</div>
+      <a class="link" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/register.html">Get a CRA business number →</a>
+    </div>
+    <div class="stage">
+      <div class="num">3</div>
+      <h3>Register on CanadaBuys</h3>
+      <div class="what">One SAP Business Network account per CRA business number, then the Government of Canada questionnaire.</div>
+      <div class="out">Output: can bid; ANID# issued</div>
+      <a class="link" href="https://canadabuys.canada.ca/en/getting-started/preparing-sell-government/how-register-your-business">How to register your business →</a>
+    </div>
+    <div class="stage">
+      <div class="num">4</div>
+      <h3>Find + watch opportunities</h3>
+      <div class="what">Search tender notices, save searches, subscribe to alerts, and study contract history for pricing intel.</div>
+      <div class="out">Output: live pipeline + saved searches</div>
+      <a class="link" href="https://canadabuys.canada.ca/en/tender-opportunities">CanadaBuys tender opportunities →</a>
+    </div>
+  </div>
+
+  <div class="down">▼</div>
+
+  <div class="row">
+    <div class="stage gate">
+      <div class="num">5</div>
+      <h3>Pre-qualify (the lever)</h3>
+      <div class="what">Get onto standing offers / supply arrangements, professional-services sourcing tools, and start any security clearance early.</div>
+      <div class="out">Output: you are invited, not just searching</div>
+      <a class="link" href="https://canadabuys.canada.ca/en/tender-opportunities/standing-offers-and-supply-arrangements">Standing offers &amp; supply arrangements →</a>
+    </div>
+    <div class="stage gate">
+      <div class="num">6</div>
+      <h3>Bid</h3>
+      <div class="what">Read the solicitation, answer every mandatory criterion, price it, submit before closing, ask questions in the Q&amp;A window.</div>
+      <div class="out">Output: compliant bid submitted</div>
+      <a class="link" href="https://canadabuys.canada.ca/en/how-bid-tender-opportunities">What makes up a bid →</a>
+    </div>
+    <div class="stage gate">
+      <div class="num">7</div>
+      <h3>Win, contract, onboard</h3>
+      <div class="what">Award notice → full registration validated → purchase order in SAP Business Network → insurance/security conditions met.</div>
+      <div class="out">Output: signed contract + PO</div>
+      <a class="link" href="https://canadabuys.canada.ca/en/support/verifying-supplier-full-registration-sap-ariba">Full registration rules →</a>
+    </div>
+    <div class="stage grow">
+      <div class="num">8</div>
+      <h3>Perform &amp; compound</h3>
+      <div class="what">Deliver, invoice through the PO, request a debrief on losses, and bid again — past performance is the moat.</div>
+      <div class="out">Output: referenceable federal client</div>
+      <a class="link" href="https://opo-boa.gc.ca/index-eng.html">Procurement Ombud (fairness) →</a>
+    </div>
+  </div>
+
+  <div class="rail">
+    <div class="box">
+      <strong>Support rail — free, always on</strong>
+      Procurement Assistance Canada: <a href="mailto:sac-pac@tpsgc-pwgsc.gc.ca">sac-pac@tpsgc-pwgsc.gc.ca</a> (the 1-800 InfoLine closed 29 May 2026) ·
+      <a href="https://www.canada.ca/en/public-services-procurement/programs/pac/event-calendar.html">free seminars &amp; events</a> ·
+      <a href="https://canadabuys.canada.ca/en/support">CanadaBuys Service Desk + Procura chatbot</a>
+    </div>
+    <div class="box">
+      <strong>Special access lanes</strong>
+      Indigenous-owned? <a href="https://services.sac-isc.gc.ca/REA-IBD?lang=eng">Indigenous Business Directory</a> ·
+      Selling an innovation? <a href="https://ised-isde.canada.ca/site/innovative-solutions-canada/en">Innovative Solutions Canada</a> ·
+      Read the <a href="https://canadabuys.canada.ca/en/buy-canadian-policy">Buy Canadian Policy</a>
+    </div>
+    <div class="box">
+      <strong>Rules of the road</strong>
+      <a href="https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance.html">Supplier integrity &amp; Code of Conduct</a> ·
+      Sole-source limits: $25k goods / $40k other / $100k construction A&amp;E
+      (<a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-87-402/FullText.html">GCR s.6</a>) ·
+      Security screening: <a href="https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting.html">Contract Security Program</a>
+    </div>
+  </div>
+</div>
+
+<h2>2. Step-by-step, with the exact pages you will visit</h2>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 0 · 1 hour</span><h3>Read the 5-page official orientation (do this before you click "register")</h3></div>
+  <ul>
+    <li>The federal buyer's guide is split into five short pages: understand the process → prepare → search → bid → get help. Read them in order once; they define every term you'll meet later.</li>
+    <li>Book one free Procurement Assistance Canada seminar. It's the single highest-value free hour available to a first-time bidder.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://www.canada.ca/en/public-services-procurement/services/acquisitions/selling-federal-government.html">Selling to the federal government</a> · <a href="https://www.canada.ca/en/public-services-procurement/services/acquisitions/support-for-businesses.html">Procurement support for businesses</a> · <a href="https://www.canada.ca/en/public-services-procurement/programs/pac/event-calendar.html">PAC event calendar</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 1 · 1–2 hours</span><h3>Confirm your CRA business number and exact legal name</h3></div>
+  <ul>
+    <li>Everything downstream keys off your <b>CRA business number (BN)</b> — one SAP Business Network account per BN. If Mosaic Singularity is incorporated in Ontario, you already have a BN (it's on your HST returns, payroll, or CRA correspondence).</li>
+    <li>Your legal name and head-office civic address must match CRA's registry exactly. A mismatch is the #1 cause of stalled registrations.</li>
+    <li>You do <b>not</b> need a BN to submit a bid — you need it before a contract, standing offer, or supply arrangement can be issued. Still, do it now so award week isn't blocked.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/register.html">Register for a CRA business number</a> · verify legal name via the <a href="https://www.businessregistration-inscriptionentreprise.gc.ca/ebci/brom/registry/pub/reg_01_Ld.action">GST/HST Registry Search</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 2 · 1 hour</span><h3>Create your SAP Business Network account (this replaces the old supplier-registration system)</h3></div>
+  <ul>
+    <li>CanadaBuys runs on <b>SAP Business Network</b> (you'll still see the old "SAP Ariba" name in places). Register through the CanadaBuys link <i>only</i> — it is what attaches Public Services and Procurement Canada (PSPC) as a customer to your account.</li>
+    <li>Only <b>one</b> account per CRA business number. If more than one exists under your BN, the CanadaBuys Service Desk deactivates the extras — so decide now which inbox owns it (use a shared inbox like <code>contracts@</code>, not a personal address).</li>
+    <li>You'll get an <b>ANID#</b> (Ariba Network ID). Write it down; it identifies you in every government transaction.</li>
+    <li>You no longer chase a separate "Procurement Business Number" — current CanadaBuys guidance keys registration to your CRA business number.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://canadabuys.canada.ca/en/getting-started/preparing-sell-government/how-register-your-business">Register your business (CanadaBuys)</a> · <a href="https://canadabuys.canada.ca/en/support/registering-sap-ariba-guide-businesses">Full step-by-step registration guide</a> · <a href="https://canadabuys.canada.ca/en/support/use-checklist-prepare-register-sap-business-network">Registration checklist (have this open)</a> · <a href="https://canadabuys.canada.ca/en/account-access">Account access / log in</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 3 · 45 min</span><h3>Answer the Government of Canada questionnaire</h3></div>
+  <ul>
+    <li>Inside your account: profile menu → <b>Company Profile → "Customer requested" tab → "Government of Canada / Gouvernement du Canada"</b>. Disable pop-up blockers or the questionnaire opens blank.</li>
+    <li><b>Questions 3–8</b> are what you need to <b>bid</b>: consent + Code of Conduct, industry, business type and owners/directors (including anyone owning 5%+), optional Indigenous self-identification, optional diversity self-identification, environment questions.</li>
+    <li><b>Question 9 = full registration</b>: CRA business number plus financial/payment details. Required once you're the successful bidder. Do it early — it's what avoids delays at award, and only the account's main administrator (with access to payment info) can complete it.</li>
+    <li><b>Question 12</b> only matters for defence contracts (cyber certification: CPCSC / CMMC). Expect to skip it for civilian work.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://canadabuys.canada.ca/en/support/registering-sap-ariba-guide-businesses">Registration guide — questionnaire section</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 4 · ongoing</span><h3>Set up your opportunity radar</h3></div>
+  <ul>
+    <li>Search <b>Tender opportunities</b> by keyword and by UNSPSC category; filter to Open, and to your province.</li>
+    <li>Save each search and subscribe to email/web-feed notifications. Also "follow" individual notices you may bid on — amendments (addenda) are where bids get lost.</li>
+    <li>Use <b>award notices + contract history</b> before you price anything: it shows who wins, at what value, from which department, and how the requirement was worded last time.</li>
+    <li>Watch the request types: <b>RFP</b> (best value), <b>RFQ / ITT</b> (lowest compliant price), <b>RFI</b> (market research — reply anyway, it shapes the eventual RFP), <b>ACAN</b> (advance contract award notice — intended sole source; you can object if you can supply it), and <b>standing offer / supply arrangement</b> calls.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://canadabuys.canada.ca/en/tender-opportunities">Tender opportunities</a> · <a href="https://canadabuys.canada.ca/en/how-to-find-tender-opportunities">How to search</a> · <a href="https://canadabuys.canada.ca/en/support/searching-award-notices-and-contract-history">Search award notices &amp; contract history</a> · <a href="https://canadabuys.canada.ca/en/procurement-and-contracting-data">Open procurement data</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 5 · the strategic step</span><h3>Get pre-qualified so buyers come to you</h3></div>
+  <ul>
+    <li><b>Standing offers (SO)</b> and <b>supply arrangements (SA)</b> are pre-competed vehicles: you qualify once, then departments buy from you directly or run a mini-competition among qualified suppliers. For a small firm, this is where repeat revenue actually lives.</li>
+    <li><b>Professional services:</b> PSPC procures many consulting/IT/professional services through its own sourcing tools (including <b>ProServices</b>), with separate registration from the general supplier account. If Mosaic Singularity sells expertise, register there too.</li>
+    <li><b>Security clearance:</b> if you'll touch protected/classified information or secure sites, screening runs through PSPC's <b>Contract Security Program</b> and takes time (facility + personnel screening). Start it the moment a target opportunity hints at it — never after you win.</li>
+    <li><b>Controlled goods / defence:</b> only if applicable — registration in the Controlled Goods Program, and cyber certification for DND work.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://canadabuys.canada.ca/en/tender-opportunities/standing-offers-and-supply-arrangements">Standing offers &amp; supply arrangements</a> · <a href="https://canadabuys.canada.ca/en/support/register-our-sourcing-tools-professional-services">Register in sourcing tools for professional services</a> · <a href="https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting.html">Security requirements &amp; Contract Security Program</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 6 · per opportunity</span><h3>Bid — and lose the right way</h3></div>
+  <ul>
+    <li>Build a compliance matrix from the solicitation: every mandatory requirement, the exact page/field in your bid that answers it, and the evidence attached. Mandatory = pass/fail; a great solution that misses one line scores zero.</li>
+    <li>Submit early. Portals congest at the deadline, and late = rejected, no exceptions.</li>
+    <li>Use the Q&amp;A / clarification window to ask about ambiguities — and to read competitors' questions, which reveal what the buyer cares about.</li>
+    <li>After award, ask the contracting authority for a <b>debrief</b> on every loss. It's free, it's usually given, and it tells you exactly what to fix. If you believe the process was unfair, the <b>Office of the Procurement Ombud</b> exists for that.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://canadabuys.canada.ca/en/how-bid-tender-opportunities">How to bid</a> · <a href="https://www.canada.ca/en/public-services-procurement/services/acquisitions/support-for-businesses/bid-on-opportunities.html">Bidding guidance (PAC)</a> · <a href="https://opo-boa.gc.ca/index-eng.html">Office of the Procurement Ombud</a></div>
+</div>
+
+<div class="step">
+  <div class="hd"><span class="badge">STEP 7 · award</span><h3>Contract, purchase order, and getting paid</h3></div>
+  <ul>
+    <li>Award notice appears publicly; you then complete <b>full registration</b> (BN validation) before the contract/SO/SA can issue.</li>
+    <li>The contract and purchase orders flow through <b>SAP Business Network</b> — invoices are matched to the PO there. Set the "email orders to" address to a monitored shared inbox.</li>
+    <li>Standard conditions to expect: insurance certificates (CGL, professional liability for services), security requirements where flagged, conflict-of-interest and Code of Conduct attestations, and payment terms typically net 30 from receipt of a valid invoice.</li>
+    <li>Deliver on time, document everything, invoice exactly against the PO. Federal past performance is checked on future bids.</li>
+  </ul>
+  <div class="go"><b>Go to:</b> <a href="https://canadabuys.canada.ca/en/support/verifying-supplier-full-registration-sap-ariba">Verifying full registration</a> · <a href="https://canadabuys.canada.ca/en/support">CanadaBuys support (PO/invoice help)</a></div>
+</div>
+
+<h2>3. Every URL in one place</h2>
+<table>
+  <thead><tr><th style="width:26%">What it's for</th><th style="width:44%">URL</th><th>When you use it</th></tr></thead>
+  <tbody>
+    <tr><td>Start here — official index</td><td><a href="https://www.canada.ca/en/public-services-procurement/services/acquisitions/selling-federal-government.html">canada.ca/…/selling-federal-government.html</a></td><td>Orientation</td></tr>
+    <tr><td>Free help hub (PAC)</td><td><a href="https://www.canada.ca/en/public-services-procurement/services/acquisitions/support-for-businesses.html">canada.ca/…/support-for-businesses.html</a></td><td>Any time you're stuck</td></tr>
+    <tr><td>Free seminars &amp; events</td><td><a href="https://www.canada.ca/en/public-services-procurement/programs/pac/event-calendar.html">canada.ca/…/pac/event-calendar.html</a></td><td>Month 1</td></tr>
+    <tr><td>CRA business number</td><td><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/register.html">canada.ca/…/registering-your-business/register.html</a></td><td>Before registration</td></tr>
+    <tr><td>CanadaBuys home</td><td><a href="https://canadabuys.canada.ca/en">canadabuys.canada.ca/en</a></td><td>Everything</td></tr>
+    <tr><td>Register your business</td><td><a href="https://canadabuys.canada.ca/en/getting-started/preparing-sell-government/how-register-your-business">canadabuys.canada.ca/en/getting-started/…/how-register-your-business</a></td><td>Step 2</td></tr>
+    <tr><td>Registration guide (detailed)</td><td><a href="https://canadabuys.canada.ca/en/support/registering-sap-ariba-guide-businesses">canadabuys.canada.ca/en/support/registering-sap-ariba-guide-businesses</a></td><td>Step 2–3</td></tr>
+    <tr><td>Registration checklist</td><td><a href="https://canadabuys.canada.ca/en/support/use-checklist-prepare-register-sap-business-network">canadabuys.canada.ca/en/support/use-checklist-prepare-register-sap-business-network</a></td><td>Step 2</td></tr>
+    <tr><td>Log in / account access</td><td><a href="https://canadabuys.canada.ca/en/account-access">canadabuys.canada.ca/en/account-access</a></td><td>Ongoing</td></tr>
+    <tr><td>Tender opportunities</td><td><a href="https://canadabuys.canada.ca/en/tender-opportunities">canadabuys.canada.ca/en/tender-opportunities</a></td><td>Weekly (Mondays)</td></tr>
+    <tr><td>What government buys</td><td><a href="https://canadabuys.canada.ca/en/tender-opportunities/what-government-buys">canadabuys.canada.ca/en/tender-opportunities/what-government-buys</a></td><td>Step 1</td></tr>
+    <tr><td>Search tips</td><td><a href="https://canadabuys.canada.ca/en/how-to-find-tender-opportunities">canadabuys.canada.ca/en/how-to-find-tender-opportunities</a></td><td>Step 4</td></tr>
+    <tr><td>How to bid</td><td><a href="https://canadabuys.canada.ca/en/how-bid-tender-opportunities">canadabuys.canada.ca/en/how-bid-tender-opportunities</a></td><td>Step 6</td></tr>
+    <tr><td>Standing offers / supply arrangements</td><td><a href="https://canadabuys.canada.ca/en/tender-opportunities/standing-offers-and-supply-arrangements">canadabuys.canada.ca/en/tender-opportunities/standing-offers-and-supply-arrangements</a></td><td>Step 5</td></tr>
+    <tr><td>Professional services sourcing tools</td><td><a href="https://canadabuys.canada.ca/en/support/register-our-sourcing-tools-professional-services">canadabuys.canada.ca/en/support/register-our-sourcing-tools-professional-services</a></td><td>Step 5</td></tr>
+    <tr><td>Award notices &amp; contract history</td><td><a href="https://canadabuys.canada.ca/en/support/searching-award-notices-and-contract-history">canadabuys.canada.ca/en/support/searching-award-notices-and-contract-history</a></td><td>Before every bid</td></tr>
+    <tr><td>Open procurement data</td><td><a href="https://canadabuys.canada.ca/en/procurement-and-contracting-data">canadabuys.canada.ca/en/procurement-and-contracting-data</a></td><td>Market analysis</td></tr>
+    <tr><td>Service Desk / Procura chatbot</td><td><a href="https://canadabuys.canada.ca/en/support">canadabuys.canada.ca/en/support</a></td><td>Any time</td></tr>
+    <tr><td>Buy Canadian Policy</td><td><a href="https://canadabuys.canada.ca/en/buy-canadian-policy">canadabuys.canada.ca/en/buy-canadian-policy</a></td><td>Positioning</td></tr>
+    <tr><td>Security / Contract Security Program</td><td><a href="https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting.html">canada.ca/…/security-requirements-contracting.html</a></td><td>If flagged in a solicitation</td></tr>
+    <tr><td>Supplier integrity &amp; Code of Conduct</td><td><a href="https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance.html">canada.ca/…/supplier-integrity-compliance.html</a></td><td>Before bidding</td></tr>
+    <tr><td>Indigenous Business Directory</td><td><a href="https://services.sac-isc.gc.ca/REA-IBD?lang=eng">services.sac-isc.gc.ca/REA-IBD</a></td><td>If 51%+ Indigenous-owned</td></tr>
+    <tr><td>Indigenous procurement (PSIB)</td><td><a href="https://sac-isc.gc.ca/eng/1100100032802/1610723869356">sac-isc.gc.ca/eng/1100100032802/1610723869356</a></td><td>Set-aside opportunities</td></tr>
+    <tr><td>Innovation route (ISC)</td><td><a href="https://ised-isde.canada.ca/site/innovative-solutions-canada/en">ised-isde.canada.ca/site/innovative-solutions-canada/en</a></td><td>If you sell a new product</td></tr>
+    <tr><td>Procurement Ombud</td><td><a href="https://opo-boa.gc.ca/index-eng.html">opo-boa.gc.ca</a></td><td>Fairness complaints</td></tr>
+    <tr><td>Government Contracts Regulations</td><td><a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-87-402/FullText.html">laws-lois.justice.gc.ca/…/SOR-87-402</a></td><td>Sole-source thresholds</td></tr>
+    <tr><td>Ontario provincial (bonus)</td><td><a href="https://www.ontariotenders.ca/">ontariotenders.ca</a></td><td>Provincial/MUSH bids</td></tr>
+  </tbody>
+</table>
+
+<h2>4. How the money actually works (so you target the right door)</h2>
+<div class="cols">
+  <div class="note">
+    <b>Competitive vs. non-competitive.</b> Above the regulated limits, a bid must be publicly solicited. Under the Government Contracts Regulations (s.6), a contract may be awarded without soliciting bids when the estimated expenditure doesn't exceed <b>$25,000 for goods</b>, <b>$40,000 for other contracts (i.e. services)</b>, or <b>$100,000 for construction-related architectural/engineering services</b> — or where only one supplier can perform.
+  </div>
+  <div class="note good">
+    <b>What that means for Mosaic Singularity.</b> Small service buys under $40k can be directed to you if a buyer already knows and trusts you — which is why <i>relationship + pre-qualification</i> beats cold bidding. Above that line you win on the written bid. Both matter; the sequence is pre-qualify, then bid.
+  </div>
+</div>
+
+<h2>5. First 90 days — a realistic sequence</h2>
+<table>
+  <thead><tr><th style="width:18%">Window</th><th>Do this</th><th style="width:26%">Done means</th></tr></thead>
+  <tbody>
+    <tr><td><b>Week 1–2</b></td><td>Read the five official PAC pages; confirm CRA BN and legal name; pick the shared inbox that will own the account.</td><td>BN in hand, legal name verified</td></tr>
+    <tr><td><b>Week 2–3</b></td><td>Create the SAP Business Network account via CanadaBuys; complete questionnaire Q3–8; save your ANID#.</td><td>Account active, can bid</td></tr>
+    <tr><td><b>Week 3–4</b></td><td>Attend one PAC seminar; build 5 saved searches with alerts; pull contract history for 10 comparable awards.</td><td>Pipeline of 20+ live notices</td></tr>
+    <tr><td><b>Month 2</b></td><td>Complete <b>Q9 full registration</b>; build the standing bid kit (company profile, 3 case studies, CVs, insurance certs, rate card, W-8/legal docs).</td><td>Bid kit ready before the first RFP</td></tr>
+    <tr><td><b>Month 2–3</b></td><td>Register on the professional-services sourcing tools if you sell expertise; identify any standing offer open for qualification; submit 2–3 low-risk bids or RFI responses.</td><td>2–3 submissions lodged, 1 debrief requested</td></tr>
+    <tr><td><b>Month 3+</b></td><td>Ask for debriefs on every outcome; recycle language into the next bid; start security screening if your target niche requires it.</td><td>Repeatable bid machine</td></tr>
+  </tbody>
+</table>
+
+<h2>6. Traps that cost small businesses their first contract</h2>
+<div class="note bad">
+  <b>Paying for "supplier registration".</b> Registration on CanadaBuys / SAP Business Network is free. Third-party services that charge for it, or that sell "government contract leads", are not the official channel and are often reselling what CanadaBuys gives you free.
+</div>
+<div class="note bad">
+  <b>Chasing the old system.</b> Supplier Registration Information (SRI) and the Procurement Business Number are retired; today it's a CRA business number + one SAP Business Network account, with full registration at question 9. Guides that walk you through "getting your PBN" are out of date.
+</div>
+<div class="note bad">
+  <b>Non-compliant bids.</b> Missing a mandatory criterion, a required form, a signature, or the stated page limit is a fail — regardless of quality. Build the compliance matrix first, write second.
+</div>
+<div class="note">
+  <b>One account, many hands.</b> A single account per business number means credential control matters: set the main administrator deliberately, keep the recovery email on a company domain, and document the ANID#.
+</div>
+<div class="note good">
+  <b>Honest expectation setting.</b> Registration takes hours; a first award typically takes months and several bids. There is no shortcut and no insider channel — the durable edge is being pre-qualified, compliant, and known to two or three buyers in your niche.
+</div>
+
+<footer>
+  Prepared for Mosaic Singularity (Ontario, Canada) · 2 November 2026 · Process facts and URLs verified against CanadaBuys and Canada.ca this date; sole-source thresholds quoted from the Government Contracts Regulations, SOR/87-402, s.6. Programs and pages change — re-verify any link before relying on it in a deadline week. Nothing here is legal or tax advice.
+</footer>
+
+</div>
+</body>
+</html>
